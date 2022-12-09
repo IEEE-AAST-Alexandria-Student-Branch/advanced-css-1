@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #1d1d23;
+    position: relative;
+    align-items: center;
+    justify-content:center;
+    border-style: solid;
+    border-color: #1d1d23;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+
+    width: 50px;
+    justify-items: left;
+}
+
+.navLinks{
+    padding-left: 500px;
+    padding: 28px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLinks li{
+    display: inline-block;
+    /* margin: 0 15px; */
+    align-items:center ;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+}
+
+.navLinks li a{
+    text-decoration: none;
+    color: white;
+    /* padding: 0 0; */
+    text-align: center;
+}
+
+.contactBtn{
+    text-decoration: none;
+    color: white;
+    border-color: #bb7d0a;
+    border-style: solid;
+    border-radius: 10px ;
+    padding: 5px 10px;
+    align-items: flex-end;
+    justify-content: right;
+    /* margin-left: 350px; */
+    text-align: right;
+}
+
+/* beginning of second div */
+#contactUs{
+   background-image: url("background.png");
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+    /* height: 700px; */
+    align-items:center;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.title1{
+    left: 0;
+    top: 0;
+    color: #e58f00;
+    text-align:left top;
+}
+
+.p1{
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#contactUs img{
+    width: 100%;
+    height:100%;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+.div1{
+    align-items: center;
+    justify-content: start;
+    padding-top: 0px;
+    margin-bottom: 250px;
+    margin-right: 100px;
+}
+
+/*Start of third div*/
+#aboutUs{
+    background-color: #1d1d23;
+    display: flex;
+}
+
+.gallery6Pic{
+    padding:50px 100px 50px 200px ;
+    height: 50%;
+    width: 50%;
+}
+
+#aboutUs .p1{
+    text-justify:distribute;
+    line-height: 30pt;
+}
+
+#aboutUs .title1{
+    margin-top: 150px;
+}
+
+/*Start of fourth div*/
+#foodQuality{
+    display: flex;
+    position: relative;
+}
+
+.p2{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    line-height: 20pt;
+    width: 100%;
+    /* text-align: center; */
+}
+#foodQuality .title1{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.normalDiv{
+    /* border-style: solid;
+    border-color: blue; */
+    border-width: 10px;
+    position: relative;
+    background-color: #e58f00;
+    width: 50%;
+    height: 300px;
+    padding-left: 0px;
+    margin-right: 0;
+    padding-right: 0; 
+}
+
+.normalDiv2{
+    position: relative;
+    float:right;
+    background-color: #e58f00;
+    justify-content:right;
+    align-items:baseline;
+    width: 50%;
+    height: 600px;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-right: 0;
+    padding-right: 0;
+    background-repeat: repeat-y;
+}
+
+#diagonalDiv{
+    background-color: #e58f00;
+    height: 600px;
+    width: 70%;
+    /* margin-left:500px; */
+    background-size: cover;
+    transform: skewX(30deg);
+    justify-content: end;
+    align-items: flex-end;
+    background-repeat: repeat-x;
+       
+}
+
+.eggPic{
+    /* transform: skewX(-30deg); */
+     width: 65%;
+    /*height: 87%; */
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    right: 35%;
+}
+
+/*Start of Fifth Div*/
+#gallery{
+    background-color: #1d1d23;
+}
+
+#gallery h1{
+    color: #e58f00;
+    text-align: center;
+    margin-top: 8px;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.galleryPics1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.galleryPics2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.galleryPics1 img{
+    /* padding: 10px;*/
+    margin: 15px; 
+    margin-top: 20px;
+    width: 20%;
+
+}
+
+.galleryPics2 img{
+    margin: 15px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30%;
+    width: 42%;
+}
+
+/* Start of sixth div */
+
+#enjoy{
+    background-image: url("enjoye.png");
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content:center;
+}
+
+#enjoyTitle{
+    border-color: white;
+    border-style: solid;
+    text-align:center;
+    color: white;
+    line-height: 20pt;
+    background-position: center;
+    text-justify: distribute ;
+    word-wrap: normal;
+    font-size:medium;
+    padding: 20px;
+    width:fit-content;
+    height:fit-content;
+    position: relative;
+}
+
+#enjoyTitle h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+/* start of seventh div */
+#ourMenu{
+    background-color: #1d1d23;
+}
+
+#ourMenuPics{
+    display: flex;
+    align-self: center;
+    justify-content:space-around;
+    margin-left: 7%;
+    margin-right: 7%;
+
+    padding-bottom: 10%;
+}
+
+#ourMenuHeader{
+    color: #e58f00;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menuHeaders{
+    color: #e58f00;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menuP{
+    color: white;
+    text-align: left;
+    margin-left: 2%;  
+}
+
+.price{
+    color: #e58f00;
+    margin-top: 5%;
+    text-indent: 5.5%;
+}
+
+/* start of eighth div */
+
+#bestMeal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#fe9000;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.parag{
+    margin-right: 0;
+    margin-left:20%
+}
+
+#bestMeal h1{
+    color: white;
+    margin-bottom: 5%;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+#bestMeal p{
+    color:white;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.bestMealPic{
+    position: absolute;
+    left: 0;
+    right: 70%;
+    width: 40%;
+    z-index: 1;
+}
+
+#footer{
+    z-index:auto;
+    background-color: #1d1d23;
+    position: relative;
+    align-items: center;
+    justify-content:center;
+    border-style: solid;
+    border-color: #1d1d23;
+    padding-top: 100px;
+}
+
+#footer img{
+    width: 10%;
+}
+
+.fnavLinks{
+    padding-left: 500px;
+    padding: 28px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.fnavLinks li{
+    display: inline-block;
+    align-items:center ;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.fnavLinks li a{
+    text-decoration: none;
+    color:#d28a00;
+    text-align: center;
+}
+
+
+
